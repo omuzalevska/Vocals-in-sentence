@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+label, button {
+    margin: 10px 0;
+    display: block;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
+}

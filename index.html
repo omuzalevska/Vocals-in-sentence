@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocals in sentence</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h2>Introduce una frase</h2>
+
+    <label for="sentence">Frase:</label>
+    <input type="text" id="sentence" placeholder="introduce una frase aquí">
+
+    <label for="option">Elija una opción:</label>
+    <select id="option">
+        <option value="getSentence">getSentence</option>
+        <option value="searchVocals">searchVocals</option>
+        <option value="deleteDuplicity">deleteDuplicity</option>
+        <option value="getVocals">getVocals</option>
+    </select>
+
+    <button onclick="processVocals()">resultado</button>
+
+    <div id="result"></div>
+
+
+</body>
+<script src="JS/index.js"></script>
+</html>
