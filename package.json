@@ -1,0 +1,17 @@
+{
+    "name": "vocals-in-sentence",
+    "version": "1.0.0",
+    "description": "vocals-in-sentence",
+    "main": "index.html",
+    "dependencies": {
+        "json-server": "*"
+    },
+    "devDependencies": {
+        "jest": "*"
+    },
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "OM",
+    "license": "ISC"
+}
